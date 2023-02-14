@@ -1,0 +1,10 @@
+<composite xmlns="http://jmix.io/schema/ui/composite">
+    <hbox align="MIDDLE_RIGHT">
+        <entityComboBox id="orderLookupPickerField">
+            <actions>
+                <action id="picker_open" type="entity_open"/>
+                <action id="picker_clone" type="entity_open" icon="font-icon:COPY"/>
+            </actions>
+        </entityComboBox>
+    </hbox>
+</composite>

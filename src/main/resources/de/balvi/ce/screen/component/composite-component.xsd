@@ -1,0 +1,17 @@
+<xs:schema xmlns="http://balvi.de/schema/customer/composite-component"
+           attributeFormDefault="unqualified"
+           elementFormDefault="qualified"
+           targetNamespace="http://balvi.de/schema/customer/composite-component"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:layout="http://jmix.io/schema/ui/layout">
+
+    <xs:element name="orderSelectorField">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="layout:baseFieldComponent">
+                    <xs:attribute name="forTable" type="xs:string"/>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

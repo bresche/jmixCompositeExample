@@ -1,0 +1,9 @@
+.order-selector-field {
+  display: flex;
+
+  .selector-btn {
+    width: $v-unit-size;
+    min-width: $v-unit-size;
+    border: 1px solid var(--border-color);
+  }
+}
